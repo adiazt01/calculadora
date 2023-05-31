@@ -1,0 +1,48 @@
+.button {
+  width: 50px;
+  height: 50px;
+  border: 0px;
+  font-size: 1.5rem;
+  border-radius: 100px;
+  color: white;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.digit {
+  background-color: #2c59ff;
+}
+
+.digit:hover{
+  background-color: #708fff;
+  transform: scale(1.05);
+}
+
+.resultB{
+  background-color: #1e5c31;
+}
+
+.resultB:hover{
+  background-color: #2b8145;
+  transform: scale(1.05);
+}
+
+.button:active{
+  animation: click .1s none;
+}
+
+.operation {
+  background-color: #ffd22c;
+  color: rgb(62, 62, 62);
+}
+
+.operation:hover{
+  background-color: #ffe790;
+  transform: scale(1.05);
+}
+
+@keyframes click {
+  50%{
+    transform: scale(0.7);
+  }
+}
